@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
   <link rel="stylesheet" href="style.css" />
@@ -13,33 +12,50 @@
 </head>
 
 <body>
-
   <div class="container">
-
-    <div id="imgd"><img src="components/images/drawers.jpg" alt="A photo of an Drawer"></div>
+    <div id="imgd">
+      <img src="components/images/drawers.jpg" alt="A photo of an Drawer" />
+    </div>
 
     <div id="article">
       <h1>
-        Shift the overall look and feel by <br />adding these wonderful touches to<br />
+        Shift the overall look and feel by <br />adding these wonderful
+        touches to<br />
         furniture in your home
       </h1>
       <p>
-        Ever been in a room and felt like something was missing? <br />Perhaps it
-        felt slightly bare and uninviting. I’ve got some <br />simple tips to help
-        you make any room feel complete.
+        Ever been in a room and felt like something was missing? <br />Perhaps
+        it felt slightly bare and uninviting. I’ve got some <br />simple tips
+        to help you make any room feel complete.
       </p>
 
       <div class="profile">
-        <div id="avatar"><img src="components/images/avatar-michelle.jpg" alt="Avatar of Michelle"></div>
-        <div id="info">
-          <h1>Michelle Appleton </h1>
-          <h2>28 Jun 2020 </h2>
+        <div id="avatar">
+          <img src="components/images/avatar-michelle.jpg" alt="Avatar of Michelle" />
         </div>
-        <button><img src="components/images/icon-share.svg" alt="Share Icon"></button>
+        <div id="info">
+          <h1>Michelle Appleton</h1>
+          <h2>28 Jun 2020</h2>
+        </div>
+        <div>
+          <script src="buttonoption.js"></script>
+          <button onmouseover="showOptions(event)">
+            <img src="components/images/icon-share.svg" alt="Share Icon" />
+          </button>
+          <div id="popup">
+            <button onclick="option1()">
+              <img src="components/images/icon-facebook.svg" alt="Share Icon" />
+            </button>
+            <button onclick="option2()">
+              <img src="components/images/icon-pinterest.svg" alt="Share Icon" />
+            </button>
+            <button onclick="option3()">
+              <img src="components/images/icon-twitter.svg" alt="Share Icon" />
+            </button>
+          </div>
+        </div>
       </div>
-
     </div>
-
   </div>
 
   <div class="attribution">
@@ -48,7 +64,6 @@
     </a>
     <span> Coded by&nbsp;</span><a href="https://github.com/victoriamnx" title="Go to Github profile">victoriamnx.</a>
   </div>
-
 </body>
 
 </html>
