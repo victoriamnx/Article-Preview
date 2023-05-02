@@ -64,11 +64,31 @@ body {
 .profile {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  align-content: center;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+.profile #box-button{
+  position: relative;
+}
+
+.profile #popup {
+  gap: 12px;
+  display: none;
+  position: absolute;
+  left: 0px;
+  bottom: 44px;
+  border-radius: 10px;
+  padding: 20px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 19%, 35%);
+}
+
+.profile section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
 .profile #avatar img {
   width: 40px;
   height: 40px;
@@ -108,21 +128,9 @@ button {
   outline: inherit;
   border-radius: 50%;
   background-color: hsl(210, 46%, 95%);
-  margin-left: 100px;
-  margin-right: 10px;
 }
 
 button:hover {
-  background-color: hsl(217, 19%, 35%);
-}
-
-#popup {
-  display: none;
-  width: auto;
-  height: auto;
-  border-radius: 10px;
-  padding: 0px 40px 0px 0px;
-  color:  hsl(0, 0%, 100%);
   background-color: hsl(217, 19%, 35%);
 }
 
