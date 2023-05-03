@@ -67,28 +67,6 @@ body {
   justify-content: space-between;
 }
 
-.profile #box-button{
-  position: relative;
-}
-
-.profile #popup {
-  gap: 12px;
-  display: none;
-  position: absolute;
-  left: 0px;
-  bottom: 44px;
-  border-radius: 10px;
-  padding: 20px;
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(217, 19%, 35%);
-}
-
-.profile section {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
 .profile #avatar img {
   width: 40px;
   height: 40px;
@@ -115,7 +93,7 @@ body {
   color: hsl(214, 17%, 51%);
 }
 
-button {
+#buttonhover {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -130,7 +108,45 @@ button {
   background-color: hsl(210, 46%, 95%);
 }
 
-button:hover {
+#buttonhover:hover {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.profile section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.profile #box-button {
+  position: relative;
+}
+
+.profile #popup {
+  display: none;
+  position: absolute;
+  gap: 10px;
+  left: -54px;
+  bottom: 44px;
+  padding: 5px;
+  border-radius: 10px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 19%, 35%);
+}
+
+button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border-radius: 50%;
+  color: hsl(0, 0%, 100%);
   background-color: hsl(217, 19%, 35%);
 }
 

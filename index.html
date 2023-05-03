@@ -1,75 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-  <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
 
-  <title>Frontend Mentor | Article preview component</title>
-</head>
+  <body>
+    <div class="container">
+      <div id="imgd">
+        <img src="components/images/drawers.jpg" alt="A photo of an Drawer" />
+      </div>
 
-<body>
-  <div class="container">
-    <div id="imgd">
-      <img src="components/images/drawers.jpg" alt="A photo of an Drawer" />
-    </div>
+      <div id="article">
+        <h1>
+          Shift the overall look and feel by <br />adding these wonderful
+          touches to<br />
+          furniture in your home
+        </h1>
+        <p>
+          Ever been in a room and felt like something was missing? <br />Perhaps
+          it felt slightly bare and uninviting. I’ve got some <br />simple tips
+          to help you make any room feel complete.
+        </p>
 
-    <div id="article">
-      <h1>
-        Shift the overall look and feel by <br />adding these wonderful
-        touches to<br />
-        furniture in your home
-      </h1>
-      <p>
-        Ever been in a room and felt like something was missing? <br />Perhaps
-        it felt slightly bare and uninviting. I’ve got some <br />simple tips
-        to help you make any room feel complete.
-      </p>
+        <div class="profile">
+          <section>
+            <div id="avatar">
+              <img
+                src="components/images/avatar-michelle.jpg"
+                alt="Avatar of Michelle"
+              />
+            </div>
 
-      <div class="profile">
-        <section>
-          <div id="avatar">
-            <img src="components/images/avatar-michelle.jpg" alt="Avatar of Michelle" />
-          </div>
+            <div id="info">
+              <h1>Michelle Appleton</h1>
+              <h2>28 Jun 2020</h2>
+            </div>
+          </section>
 
-          <div id="info">
-            <h1>Michelle Appleton</h1>
-            <h2>28 Jun 2020</h2>
-          </div>
-        </section>
-
-        <div id="box-button">
-          <button onmouseover="showOptions(event)">
-            <img src="components/images/icon-share.svg" alt="Share Icon" />
-          </button>
-
-          <div id="popup">
-            <button onclick="option1()">
-              <img src="components/images/icon-facebook.svg" alt="Share Icon" />
+          <div id="box-button">
+            <button id="buttonhover" onmouseover="showOptions(event)">
+              <img src="components/images/icon-share.svg" alt="Share Icon" />
             </button>
-            <button onclick="option2()">
-              <img src="components/images/icon-pinterest.svg" alt="Share Icon" />
-            </button>
-            <button onclick="option3()">
-              <img src="components/images/icon-twitter.svg" alt="Share Icon" />
-            </button>
+
+            <div id="popup">
+              <button onclick="option1()">
+                <img
+                  src="components/images/icon-facebook.svg"
+                  alt="Share Icon"
+                />
+              </button>
+              <button onclick="option2()">
+                <img
+                  src="components/images/icon-twitter.svg"
+                  alt="Share Icon"
+                />
+              </button>
+              <button onclick="option3()">
+                <img
+                  src="components/images/icon-pinterest.svg"
+                  alt="Share Icon"
+                />
+              </button>
+            </div>
           </div>
         </div>
-
       </div>
     </div>
-  </div>
 
-  <div class="attribution">
-    <span>Challenge by&nbsp;</span><a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-      title="Go to Frontend Mentor site">Frontend Mentor.
-    </a>
-    <span> Coded by&nbsp;</span><a href="https://github.com/victoriamnx" title="Go to Github profile">victoriamnx.</a>
-  </div>
-  <script src="buttonoption.js"></script>
-</body>
-
+    <div class="attribution">
+      <span>Challenge by&nbsp;</span
+      ><a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        title="Go to Frontend Mentor site"
+        >Frontend Mentor.
+      </a>
+      <span> Coded by&nbsp;</span
+      ><a href="https://github.com/victoriamnx" title="Go to Github profile"
+        >victoriamnx.</a
+      >
+    </div>
+    <script src="buttonoption.js"></script>
+  </body>
 </html>

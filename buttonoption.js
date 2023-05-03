@@ -1,4 +1,4 @@
-const popup = document.getElementById('popup')
+const popup = document.getElementById("popup");
 
 function showOptions(event) {
   popup.style.display = "flex";
