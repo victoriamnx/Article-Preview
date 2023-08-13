@@ -11,7 +11,8 @@ This is a solution to the [Article preview challenge](https://www.frontendmentor
 
 # Result
 
-Coming soon
+![image](https://github.com/victoriamnx/Article-Preview/assets/96449803/c6aa6c9c-bf0d-46c5-adef-636f04f343e2)
+![image](https://github.com/victoriamnx/Article-Preview/assets/96449803/8b8b4ba9-544d-4363-b8ee-18dcbd194a4a)
 
 # Links
 
